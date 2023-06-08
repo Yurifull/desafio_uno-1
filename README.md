@@ -30,6 +30,7 @@ Mucha suerte y danos tú mejor esfuerzo.
 -> El código debe ser escrito en Inglés.
 -> La solución debe contener un README.md con las instrucciones para compilar e instalar.
 -> Hay bonus si usas Spring-boot o SWAGGER.
+-> Enviar una copia a carolina.duarte@evol.energy para confirmar la finalización de la tarea y revisar el desafio.
 ```
 
 NOTA: Todos los pull requests serán rechazados, esto no quiere decir que ha sido rechazada la solución, sino que es una forma de que otros postulantes no copien tu código. Cualquier duda, escribeme al email: ext.yuriperez@evol.energy
