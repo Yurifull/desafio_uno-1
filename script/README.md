@@ -1,0 +1,1 @@
+Solo es necesario ejecutar el script de creación de la Base de datos, las tablas serán creadas a través de la aplicación
