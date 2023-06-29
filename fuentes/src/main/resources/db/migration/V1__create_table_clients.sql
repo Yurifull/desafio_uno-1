@@ -1,0 +1,7 @@
+CREATE TABLE clients (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  rut VARCHAR(20) NOT NULL UNIQUE,
+  business_name VARCHAR(255) NOT NULL,
+  start_date DATE NOT NULL
+);

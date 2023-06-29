@@ -1,0 +1,206 @@
+{
+	"info": {
+		"_postman_id": "f1895625-4ac9-4951-8a02-4af5022c9981",
+		"name": "Evol Challange",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "430015"
+	},
+	"item": [
+		{
+			"name": "Clients",
+			"item": [
+				{
+					"name": "[Create] clients",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Edison Delgado\",\n    \"startDate\": \"2023-12-28\",\n    \"rut\": \"15849448-5\",\n    \"businessName\": \"Mi negocio\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/clients",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[Update] clients",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Edison Delgado Aguilera\",\n    \"startDate\": \"2023-12-28\",\n    \"rut\": \"15849448-5\",\n    \"businessName\": \"Mi negocio actualizado\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/clients/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clients",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[Get] clients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/clients/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clients",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[Delete] clients",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/clients/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"clients",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Meters",
+			"item": [
+				{
+					"name": "[Create] meters",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"physicalAddress\": \"Direccion física 111\",\n    \"installationNumber\": \"1245\",\n    \"clientId\": 7\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/meters",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"meters"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[Update] meters",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"physicalAddress\": \"Direccion física 001\",\n    \"installationNumber\": \"1245\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/meters/9",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"meters",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[Get] meters",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/meters/9",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"meters",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "[Delete] meters",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/meters/9",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"meters",
+								"9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
