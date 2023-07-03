@@ -6,7 +6,7 @@ Repositorio con el ejercicio EVOL-SERVICES. El presente repositorio tiene por ob
 _La jerarquía de carpetas del proyecto debe respetar lo siguiente._
 
 ```
-	-ECOM
+	-EVOL
 		-> fuentes - Deja todo el código fuente del ejercicio.
 		-> script - Script de inserción de schemas, tablas y data base del ejercicio.
 
